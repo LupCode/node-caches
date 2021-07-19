@@ -1,0 +1,26 @@
+{
+  "name": "caches",
+  "version": "1.0.0",
+  "description": "Offers different caches",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LupCode/node-caches.git"
+  },
+  "keywords": [
+    "nodejs",
+    "node-module",
+    "lfu-cache",
+    "caches",
+    "fixed-size"
+  ],
+  "author": "LupCode.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/LupCode/node-caches/issues"
+  },
+  "homepage": "https://github.com/LupCode/node-caches#readme"
+}
