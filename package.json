@@ -1,26 +1,27 @@
 {
-  "name": "caches",
+  "name": "lup-caches",
   "version": "1.0.0",
-  "description": "Offers different caches",
+  "description": "Offers efficient caches",
   "main": "index.js",
   "scripts": {
     "test": "node index.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/LupCode/node-caches.git"
+    "url": "git+https://github.com/LupCode/node-lup-caches.git"
   },
   "keywords": [
     "nodejs",
     "node-module",
     "lfu-cache",
     "caches",
-    "fixed-size"
+    "fixed-size",
+	"lup-caches"
   ],
   "author": "LupCode.com",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/LupCode/node-caches/issues"
+    "url": "https://github.com/LupCode/node-lup-caches/issues"
   },
-  "homepage": "https://github.com/LupCode/node-caches#readme"
+  "homepage": "https://github.com/LupCode/node-lup-caches#readme"
 }
