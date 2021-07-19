@@ -1,6 +1,6 @@
 /**
  * Fixed size cache storing key-value pairs such that total 
- * size of stored values will not exceed given limit. 
+ * byte size of stored values will not exceed given limit. 
  * Uses the LFU algortihm (least frequently used) to evict entries if cache is full. 
  * Additionally an expire interval can be set (passive on {@code put()} call) that repeatedly halfs 
  * the access counter of each entry.
@@ -325,6 +325,14 @@ class FixedEntryLFUCache {
 
 
 
+/**
+ * Fixed size cache storing key-value pairs such that total 
+ * byte size of stored values will not exceed given limit. 
+ * Uses the LFU algortihm (least frequently used) to evict entries if cache is full. 
+ * Additionally an expire interval can be set (passive on {@code put()} call) that repeatedly halfs 
+ * the access counter of each entry.
+ * @author LupCode.com
+ */
 class FixedSizeLRUCache {
 
 }
@@ -338,6 +346,6 @@ class FixedEntryLRUCache {
 module.exports = {
     FixedSizeLFUCache,
     FixedEntryLFUCache,
-    FixedSizeLFUCache,
+    FixedSizeLRUCache,
     FixedEntryLRUCache
 }
