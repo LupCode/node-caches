@@ -1,9 +1,9 @@
-# node-caches
+# lup-caches
 Node module that offers efficient caches that store key-value pairs.
 
 ## How to use
 1. Install with the following command `npm install node-caches`  
-2. Reference in your NodeJS project by adding `const caches = require('node-caches');`.  
+2. Reference in your NodeJS project by adding `const caches = require('lup-caches');`.  
 See [Examples](#examples)
 
 ## Available Classes
@@ -23,7 +23,7 @@ the access counter of each entry.
 
 ## Examples
 ```javascript
-const {FixedSizeLFUCache} = require('node-caches');
+const {FixedSizeLFUCache} = require('lup-caches');
 
 let maxSize = 10.5; // MB
 let cache = new FixedSizeLFUCache(maxSize);
