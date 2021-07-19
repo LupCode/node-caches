@@ -1,6 +1,10 @@
 # node-caches
 Node module that offers efficient caches that store key-value pairs.
 
+## How to use
+1. Install with the following command `npm install node-caches`  
+2. Reference in your NodeJS project by adding `const caches = require('node-caches');`.  
+See [Examples](#examples)
 
 ## Available Classes
 #### `FixedSizeLFUCache`
@@ -17,7 +21,7 @@ Additionally an expire interval can be set (passive on put call) that repeatedly
 the access counter of each entry.  
 
 
-## Example
+## Examples
 ```javascript
 const {FixedSizeLFUCache} = require('node-caches');
 
