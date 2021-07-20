@@ -2,7 +2,7 @@
 Node module that offers efficient caches that store key-value pairs.
 
 ## How to use
-1. Install with the following command `npm install node-caches`  
+1. Install with the following command `npm install lup-caches`  
 2. Reference in your NodeJS project by adding `const caches = require('lup-caches');`.  
 See [Examples](#examples)
 
