@@ -14,11 +14,23 @@ Uses the LFU algortihm (least frequently used) to evict entries if cache is full
 Additionally an expire interval can be set (passive on put call) that repeatedly halfs  
 the access counter of each entry.  
 
-#### `FixedEntryLFUCache`
+#### `FixedCountLFUCache`
 Cache storing fixed amount of key-value pairs.  
 Uses the LFU algortihm (least frequently used) to evict entries if cache is full.  
 Additionally an expire interval can be set (passive on put call) that repeatedly halfs  
 the access counter of each entry.  
+
+## Available Classes
+#### `FixedSizeLRUCache`
+Fixed size cache storing key-value pairs such that total 
+byte size of stored values will not exceed given limit. 
+Uses the LRU algortihm (least recently used) to evict entries if cache is full. 
+Cheaper and faster than LFU but not as many cache hits.  
+
+#### `FixedCountLRUCache`
+Cache storing fixed amount of key-value pairs.
+Uses the LRU algortihm (least recently used) to evict entries if cache is full. 
+Cheaper and faster than LFU but not as many cache hits.  
 
 
 ## Examples

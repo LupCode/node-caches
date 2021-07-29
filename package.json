@@ -4,7 +4,7 @@
   "description": "Offers efficient caches",
   "main": "index.js",
   "scripts": {
-    "test": "node index.js"
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
@@ -13,10 +13,13 @@
   "keywords": [
     "nodejs",
     "node-module",
+    "lfu",
     "lfu-cache",
+    "lru",
+    "lru-cache",
     "caches",
     "fixed-size",
-	"lup-caches"
+	  "lup-caches"
   ],
   "author": "LupCode.com",
   "license": "MIT",
